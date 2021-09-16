@@ -16,7 +16,7 @@ namespace ConsoleApp7
             int K = N / 3;
             if (k == K)
             {
-                double result = Math.Pow(2, Convert.ToDouble(K - 1));//test
+                double result = Math.Pow(2, Convert.ToDouble(K - 1));
                 Console.WriteLine(result);
             }
             else
