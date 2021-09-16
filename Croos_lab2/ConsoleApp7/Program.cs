@@ -8,7 +8,7 @@ namespace ConsoleApp7
         static void Main(string[] args)
         {           
             string lines;
-            StreamReader sr = new StreamReader("C:/Users/denta/source/repos/ConsoleApp7/input.txt");
+            StreamReader sr = new StreamReader("C:/Users/denta/OneDrive/Desktop/CrossPlat/CrossPlat/Croos_lab2/input.txt");
             lines = sr.ReadLine();
             int N = Convert.ToInt32(lines);
             double n = Convert.ToDouble(lines);
